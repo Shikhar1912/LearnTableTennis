@@ -23,9 +23,7 @@ const User = mongoose.model("User", userSchema);
 const Admin = mongoose.model("Admin", adminSchema);
 const Course = mongoose.model("Course", courseSchema);
 
-mongoose.connect(
-  "mongodb+srv://shikharval19:2191rahkihs@cluster0.jpywrsa.mongodb.net/courses"
-);
+
 module.exports = ({
   User,
   Admin,
